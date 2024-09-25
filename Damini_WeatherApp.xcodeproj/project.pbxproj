@@ -7,15 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		085E10B5ADFF5CB750B1C131 /* Pods_Damini_WeatherApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0F4B4DE6AC6BC67B63DAD3 /* Pods_Damini_WeatherApp.framework */; };
+		8AD7E7A24F26DBFF869C54C7 /* Pods_Damini_WeatherAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17948AA2D410841966F4F792 /* Pods_Damini_WeatherAppTests.framework */; };
+		F3A19916D55BD93F77F04D1F /* Pods_Damini_WeatherApp_Damini_WeatherAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5B23C726F4542A70CF29BF7 /* Pods_Damini_WeatherApp_Damini_WeatherAppUITests.framework */; };
+		F7785C372CA2DAD8006F3026 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7785C362CA2DAD8006F3026 /* SearchResponse.swift */; };
+		F7785C3A2CA2E749006F3026 /* WeatherProcessingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7785C392CA2E749006F3026 /* WeatherProcessingTest.swift */; };
+		F78BB57E2CA2A51E00B115B9 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78BB57D2CA2A51E00B115B9 /* WeatherVC.swift */; };
+		F78BB5802CA2A52600B115B9 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78BB57F2CA2A52600B115B9 /* WeatherViewModel.swift */; };
+		F78BB5822CA2A58500B115B9 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78BB5812CA2A58500B115B9 /* Bindable.swift */; };
+		F78BB5842CA2A65000B115B9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78BB5832CA2A65000B115B9 /* LocationManager.swift */; };
+		F78BB5862CA2A9E800B115B9 /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78BB5852CA2A9E800B115B9 /* WeatherResponse.swift */; };
+		F78BB5882CA2B17D00B115B9 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78BB5872CA2B17D00B115B9 /* Time.swift */; };
+		F78BB58A2CA2BC5100B115B9 /* FormatStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78BB5892CA2BC5100B115B9 /* FormatStyle.swift */; };
+		F78BB58E2CA2C2B900B115B9 /* UpcomingWeatherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F78BB58D2CA2C2B900B115B9 /* UpcomingWeatherCell.xib */; };
+		F78BB58F2CA2C2B900B115B9 /* UpcomingWeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78BB58C2CA2C2B900B115B9 /* UpcomingWeatherCell.swift */; };
+		F7A04FB82CA3B99A0050F595 /* RealmStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A04FB72CA3B99A0050F595 /* RealmStorage.swift */; };
+		F7A04FBA2CA3BAF60050F595 /* CachedWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A04FB92CA3BAF60050F595 /* CachedWeatherModel.swift */; };
+		F7A067582CA3384D00D1F75A /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A067572CA3384D00D1F75A /* Alert.swift */; };
+		F7A067622CA33C0800D1F75A /* AppLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A067612CA33C0800D1F75A /* AppLoader.swift */; };
+		F7A067652CA3456B00D1F75A /* CityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A067632CA3456B00D1F75A /* CityCell.swift */; };
+		F7A067662CA3456B00D1F75A /* CityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7A067642CA3456B00D1F75A /* CityCell.xib */; };
 		F7A852112CA280F300C701C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A852102CA280F300C701C2 /* AppDelegate.swift */; };
 		F7A852132CA280F300C701C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A852122CA280F300C701C2 /* SceneDelegate.swift */; };
-		F7A852152CA280F300C701C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A852142CA280F300C701C2 /* ViewController.swift */; };
-		F7A852182CA280F300C701C2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F7A852172CA280F300C701C2 /* Base */; };
 		F7A8521A2CA280F400C701C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A852192CA280F400C701C2 /* Assets.xcassets */; };
 		F7A8521D2CA280F400C701C2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F7A8521C2CA280F400C701C2 /* Base */; };
-		F7A852282CA280F400C701C2 /* Damini_WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A852272CA280F400C701C2 /* Damini_WeatherAppTests.swift */; };
 		F7A852322CA280F400C701C2 /* Damini_WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A852312CA280F400C701C2 /* Damini_WeatherAppUITests.swift */; };
 		F7A852342CA280F400C701C2 /* Damini_WeatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A852332CA280F400C701C2 /* Damini_WeatherAppUITestsLaunchTests.swift */; };
+		F7A8524B2CA2868E00C701C2 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7A852462CA2868E00C701C2 /* SF-Pro-Text-Regular.otf */; };
+		F7A8524C2CA2868E00C701C2 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7A852472CA2868E00C701C2 /* SF-Pro-Text-Semibold.otf */; };
+		F7A8524D2CA2868E00C701C2 /* SofiaProSoftBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7A852482CA2868E00C701C2 /* SofiaProSoftBold.ttf */; };
+		F7A8524E2CA2868E00C701C2 /* SofiaProSoftRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7A852492CA2868E00C701C2 /* SofiaProSoftRegular.ttf */; };
+		F7A852532CA2877000C701C2 /* Weather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A852522CA2877000C701C2 /* Weather.storyboard */; };
+		F7A852542CA28BA700C701C2 /* SofiaProSoftRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7A852492CA2868E00C701C2 /* SofiaProSoftRegular.ttf */; };
+		F7A852552CA28BA700C701C2 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7A852462CA2868E00C701C2 /* SF-Pro-Text-Regular.otf */; };
+		F7A852562CA28BA700C701C2 /* SofiaProSoftBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7A852482CA2868E00C701C2 /* SofiaProSoftBold.ttf */; };
+		F7A852572CA28BA700C701C2 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7A852472CA2868E00C701C2 /* SF-Pro-Text-Semibold.otf */; };
+		F7A852582CA28BA800C701C2 /* SofiaProSoftRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7A852492CA2868E00C701C2 /* SofiaProSoftRegular.ttf */; };
+		F7A852592CA28BA800C701C2 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7A852462CA2868E00C701C2 /* SF-Pro-Text-Regular.otf */; };
+		F7A8525A2CA28BA800C701C2 /* SofiaProSoftBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7A852482CA2868E00C701C2 /* SofiaProSoftBold.ttf */; };
+		F7A8525B2CA28BA800C701C2 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F7A852472CA2868E00C701C2 /* SF-Pro-Text-Semibold.otf */; };
+		F7A8525D2CA28BAD00C701C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A852192CA280F400C701C2 /* Assets.xcassets */; };
+		F7A8525F2CA28BAD00C701C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A852192CA280F400C701C2 /* Assets.xcassets */; };
+		F7B4165D2CA29438008E5001 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4165C2CA29438008E5001 /* APIHelper.swift */; };
+		F7B4165F2CA29490008E5001 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B4165E2CA29490008E5001 /* Constants.swift */; };
+		F7B416652CA29547008E5001 /* WeatherForecastResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B416642CA29547008E5001 /* WeatherForecastResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +71,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F7A8520D2CA280F300C701C2 /* Damini_WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Damini_WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17948AA2D410841966F4F792 /* Pods_Damini_WeatherAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Damini_WeatherAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C4D2B2D8FB2B61BFAA7C6A /* Pods-Damini_WeatherAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Damini_WeatherAppTests.release.xcconfig"; path = "Target Support Files/Pods-Damini_WeatherAppTests/Pods-Damini_WeatherAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		5846238791EEF250644C9D46 /* Pods-Damini_WeatherAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Damini_WeatherAppTests.debug.xcconfig"; path = "Target Support Files/Pods-Damini_WeatherAppTests/Pods-Damini_WeatherAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7152B55DFF8BF6339DEBD298 /* Pods-Damini_WeatherApp-Damini_WeatherAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Damini_WeatherApp-Damini_WeatherAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Damini_WeatherApp-Damini_WeatherAppUITests/Pods-Damini_WeatherApp-Damini_WeatherAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D9459BA4155E3D7CB4970CF /* Pods-Damini_WeatherApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Damini_WeatherApp.debug.xcconfig"; path = "Target Support Files/Pods-Damini_WeatherApp/Pods-Damini_WeatherApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9FDF0B1789196FD36ADFE91F /* Pods-Damini_WeatherApp-Damini_WeatherAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Damini_WeatherApp-Damini_WeatherAppUITests.release.xcconfig"; path = "Target Support Files/Pods-Damini_WeatherApp-Damini_WeatherAppUITests/Pods-Damini_WeatherApp-Damini_WeatherAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AF81A1CFBFEEAF21AD2CF8CF /* Pods-Damini_WeatherApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Damini_WeatherApp.release.xcconfig"; path = "Target Support Files/Pods-Damini_WeatherApp/Pods-Damini_WeatherApp.release.xcconfig"; sourceTree = "<group>"; };
+		E5B23C726F4542A70CF29BF7 /* Pods_Damini_WeatherApp_Damini_WeatherAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Damini_WeatherApp_Damini_WeatherAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7785C362CA2DAD8006F3026 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		F7785C392CA2E749006F3026 /* WeatherProcessingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherProcessingTest.swift; sourceTree = "<group>"; };
+		F7785C3B2CA2F315006F3026 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		F78BB57D2CA2A51E00B115B9 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		F78BB57F2CA2A52600B115B9 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		F78BB5812CA2A58500B115B9 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		F78BB5832CA2A65000B115B9 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F78BB5852CA2A9E800B115B9 /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		F78BB5872CA2B17D00B115B9 /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		F78BB5892CA2BC5100B115B9 /* FormatStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatStyle.swift; sourceTree = "<group>"; };
+		F78BB58C2CA2C2B900B115B9 /* UpcomingWeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingWeatherCell.swift; sourceTree = "<group>"; };
+		F78BB58D2CA2C2B900B115B9 /* UpcomingWeatherCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpcomingWeatherCell.xib; sourceTree = "<group>"; };
+		F7A04FB42CA3B8660050F595 /* Damini_WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Damini_WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A04FB52CA3B8660050F595 /* Damini_WeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Damini_WeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A04FB62CA3B8660050F595 /* Damini_WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Damini_WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7A04FB72CA3B99A0050F595 /* RealmStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmStorage.swift; sourceTree = "<group>"; };
+		F7A04FB92CA3BAF60050F595 /* CachedWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedWeatherModel.swift; sourceTree = "<group>"; };
+		F7A067572CA3384D00D1F75A /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		F7A067612CA33C0800D1F75A /* AppLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLoader.swift; sourceTree = "<group>"; };
+		F7A067632CA3456B00D1F75A /* CityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCell.swift; sourceTree = "<group>"; };
+		F7A067642CA3456B00D1F75A /* CityCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityCell.xib; sourceTree = "<group>"; };
 		F7A852102CA280F300C701C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7A852122CA280F300C701C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F7A852142CA280F300C701C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F7A852172CA280F300C701C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7A852192CA280F400C701C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7A8521C2CA280F400C701C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7A8521E2CA280F400C701C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7A852232CA280F400C701C2 /* Damini_WeatherAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Damini_WeatherAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7A852272CA280F400C701C2 /* Damini_WeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Damini_WeatherAppTests.swift; sourceTree = "<group>"; };
-		F7A8522D2CA280F400C701C2 /* Damini_WeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Damini_WeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A852312CA280F400C701C2 /* Damini_WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Damini_WeatherAppUITests.swift; sourceTree = "<group>"; };
 		F7A852332CA280F400C701C2 /* Damini_WeatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Damini_WeatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7A852462CA2868E00C701C2 /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		F7A852472CA2868E00C701C2 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		F7A852482CA2868E00C701C2 /* SofiaProSoftBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SofiaProSoftBold.ttf; sourceTree = "<group>"; };
+		F7A852492CA2868E00C701C2 /* SofiaProSoftRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SofiaProSoftRegular.ttf; sourceTree = "<group>"; };
+		F7A852522CA2877000C701C2 /* Weather.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weather.storyboard; sourceTree = "<group>"; };
+		F7B4165C2CA29438008E5001 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		F7B4165E2CA29490008E5001 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F7B416642CA29547008E5001 /* WeatherForecastResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherForecastResponse.swift; sourceTree = "<group>"; };
+		FC0F4B4DE6AC6BC67B63DAD3 /* Pods_Damini_WeatherApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Damini_WeatherApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				085E10B5ADFF5CB750B1C131 /* Pods_Damini_WeatherApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD7E7A24F26DBFF869C54C7 /* Pods_Damini_WeatherAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,42 +139,71 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3A19916D55BD93F77F04D1F /* Pods_Damini_WeatherApp_Damini_WeatherAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81BB48EEE035BE73FEC300FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D9459BA4155E3D7CB4970CF /* Pods-Damini_WeatherApp.debug.xcconfig */,
+				AF81A1CFBFEEAF21AD2CF8CF /* Pods-Damini_WeatherApp.release.xcconfig */,
+				7152B55DFF8BF6339DEBD298 /* Pods-Damini_WeatherApp-Damini_WeatherAppUITests.debug.xcconfig */,
+				9FDF0B1789196FD36ADFE91F /* Pods-Damini_WeatherApp-Damini_WeatherAppUITests.release.xcconfig */,
+				5846238791EEF250644C9D46 /* Pods-Damini_WeatherAppTests.debug.xcconfig */,
+				38C4D2B2D8FB2B61BFAA7C6A /* Pods-Damini_WeatherAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A65C265B2F2FCA2F6B298097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC0F4B4DE6AC6BC67B63DAD3 /* Pods_Damini_WeatherApp.framework */,
+				E5B23C726F4542A70CF29BF7 /* Pods_Damini_WeatherApp_Damini_WeatherAppUITests.framework */,
+				17948AA2D410841966F4F792 /* Pods_Damini_WeatherAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F78BB58B2CA2C29600B115B9 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				F78BB58C2CA2C2B900B115B9 /* UpcomingWeatherCell.swift */,
+				F78BB58D2CA2C2B900B115B9 /* UpcomingWeatherCell.xib */,
+				F7A067632CA3456B00D1F75A /* CityCell.swift */,
+				F7A067642CA3456B00D1F75A /* CityCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
 		F7A852042CA280F300C701C2 = {
 			isa = PBXGroup;
 			children = (
 				F7A8520F2CA280F300C701C2 /* Damini_WeatherApp */,
 				F7A852262CA280F400C701C2 /* Damini_WeatherAppTests */,
 				F7A852302CA280F400C701C2 /* Damini_WeatherAppUITests */,
-				F7A8520E2CA280F300C701C2 /* Products */,
+				81BB48EEE035BE73FEC300FF /* Pods */,
+				A65C265B2F2FCA2F6B298097 /* Frameworks */,
+				F7A04FB42CA3B8660050F595 /* Damini_WeatherApp.app */,
+				F7A04FB52CA3B8660050F595 /* Damini_WeatherAppTests.xctest */,
+				F7A04FB62CA3B8660050F595 /* Damini_WeatherAppUITests.xctest */,
 			);
-			sourceTree = "<group>";
-		};
-		F7A8520E2CA280F300C701C2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F7A8520D2CA280F300C701C2 /* Damini_WeatherApp.app */,
-				F7A852232CA280F400C701C2 /* Damini_WeatherAppTests.xctest */,
-				F7A8522D2CA280F400C701C2 /* Damini_WeatherAppUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F7A8520F2CA280F300C701C2 /* Damini_WeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				F7A852102CA280F300C701C2 /* AppDelegate.swift */,
-				F7A852122CA280F300C701C2 /* SceneDelegate.swift */,
-				F7A852142CA280F300C701C2 /* ViewController.swift */,
-				F7A852162CA280F300C701C2 /* Main.storyboard */,
-				F7A852192CA280F400C701C2 /* Assets.xcassets */,
-				F7A8521B2CA280F400C701C2 /* LaunchScreen.storyboard */,
-				F7A8521E2CA280F400C701C2 /* Info.plist */,
+				F7785C3B2CA2F315006F3026 /* Readme.md */,
+				F7A852402CA283AA00C701C2 /* AppBase */,
+				F7A852412CA283BE00C701C2 /* AppUtility */,
+				F7A852422CA283E200C701C2 /* WebService */,
+				F7A852432CA283EF00C701C2 /* Scenes */,
+				F7A852452CA2867B00C701C2 /* Resources */,
+				F7A852442CA283FE00C701C2 /* Plist */,
 			);
 			path = Damini_WeatherApp;
 			sourceTree = "<group>";
@@ -113,7 +211,7 @@
 		F7A852262CA280F400C701C2 /* Damini_WeatherAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				F7A852272CA280F400C701C2 /* Damini_WeatherAppTests.swift */,
+				F7785C392CA2E749006F3026 /* WeatherProcessingTest.swift */,
 			);
 			path = Damini_WeatherAppTests;
 			sourceTree = "<group>";
@@ -127,6 +225,106 @@
 			path = Damini_WeatherAppUITests;
 			sourceTree = "<group>";
 		};
+		F7A852402CA283AA00C701C2 /* AppBase */ = {
+			isa = PBXGroup;
+			children = (
+				F7A852102CA280F300C701C2 /* AppDelegate.swift */,
+				F7A852122CA280F300C701C2 /* SceneDelegate.swift */,
+			);
+			path = AppBase;
+			sourceTree = "<group>";
+		};
+		F7A852412CA283BE00C701C2 /* AppUtility */ = {
+			isa = PBXGroup;
+			children = (
+				F78BB5872CA2B17D00B115B9 /* Time.swift */,
+				F7B4165E2CA29490008E5001 /* Constants.swift */,
+				F78BB5812CA2A58500B115B9 /* Bindable.swift */,
+				F78BB5832CA2A65000B115B9 /* LocationManager.swift */,
+				F78BB5892CA2BC5100B115B9 /* FormatStyle.swift */,
+				F7A067572CA3384D00D1F75A /* Alert.swift */,
+				F7A067612CA33C0800D1F75A /* AppLoader.swift */,
+				F7A04FB72CA3B99A0050F595 /* RealmStorage.swift */,
+			);
+			path = AppUtility;
+			sourceTree = "<group>";
+		};
+		F7A852422CA283E200C701C2 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				F7B4165C2CA29438008E5001 /* APIHelper.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		F7A852432CA283EF00C701C2 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F78BB58B2CA2C29600B115B9 /* XIB */,
+				F7B416602CA29527008E5001 /* Model */,
+				F7B416612CA2952D008E5001 /* Views */,
+				F7A8521B2CA280F400C701C2 /* LaunchScreen.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F7A852442CA283FE00C701C2 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				F7A8521E2CA280F400C701C2 /* Info.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+		F7A852452CA2867B00C701C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7A8524A2CA2868E00C701C2 /* Fonts */,
+				F7A852192CA280F400C701C2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F7A8524A2CA2868E00C701C2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F7A852462CA2868E00C701C2 /* SF-Pro-Text-Regular.otf */,
+				F7A852472CA2868E00C701C2 /* SF-Pro-Text-Semibold.otf */,
+				F7A852482CA2868E00C701C2 /* SofiaProSoftBold.ttf */,
+				F7A852492CA2868E00C701C2 /* SofiaProSoftRegular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F7A852512CA2875100C701C2 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				F7A852522CA2877000C701C2 /* Weather.storyboard */,
+				F78BB57D2CA2A51E00B115B9 /* WeatherVC.swift */,
+				F78BB57F2CA2A52600B115B9 /* WeatherViewModel.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		F7B416602CA29527008E5001 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7B416642CA29547008E5001 /* WeatherForecastResponse.swift */,
+				F78BB5852CA2A9E800B115B9 /* WeatherResponse.swift */,
+				F7785C362CA2DAD8006F3026 /* SearchResponse.swift */,
+				F7A04FB92CA3BAF60050F595 /* CachedWeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7B416612CA2952D008E5001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7A852512CA2875100C701C2 /* Weather */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +332,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7A852372CA280F400C701C2 /* Build configuration list for PBXNativeTarget "Damini_WeatherApp" */;
 			buildPhases = (
+				9E20B6F9922247B03598C395 /* [CP] Check Pods Manifest.lock */,
 				F7A852092CA280F300C701C2 /* Sources */,
 				F7A8520A2CA280F300C701C2 /* Frameworks */,
 				F7A8520B2CA280F300C701C2 /* Resources */,
+				F7785C382CA2E308006F3026 /* ShellScript */,
+				380C47904655D7C8193D56EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -144,16 +345,18 @@
 			);
 			name = Damini_WeatherApp;
 			productName = Damini_WeatherApp;
-			productReference = F7A8520D2CA280F300C701C2 /* Damini_WeatherApp.app */;
+			productReference = F7A04FB42CA3B8660050F595 /* Damini_WeatherApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F7A852222CA280F400C701C2 /* Damini_WeatherAppTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7A8523A2CA280F400C701C2 /* Build configuration list for PBXNativeTarget "Damini_WeatherAppTests" */;
 			buildPhases = (
+				A021B6428238BD0A17159A3A /* [CP] Check Pods Manifest.lock */,
 				F7A8521F2CA280F400C701C2 /* Sources */,
 				F7A852202CA280F400C701C2 /* Frameworks */,
 				F7A852212CA280F400C701C2 /* Resources */,
+				1792D0B3A92B4483EDE580F2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,16 +365,18 @@
 			);
 			name = Damini_WeatherAppTests;
 			productName = Damini_WeatherAppTests;
-			productReference = F7A852232CA280F400C701C2 /* Damini_WeatherAppTests.xctest */;
+			productReference = F7A04FB52CA3B8660050F595 /* Damini_WeatherAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		F7A8522C2CA280F400C701C2 /* Damini_WeatherAppUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7A8523D2CA280F400C701C2 /* Build configuration list for PBXNativeTarget "Damini_WeatherAppUITests" */;
 			buildPhases = (
+				64FEA535D4EDB9DDF44808F1 /* [CP] Check Pods Manifest.lock */,
 				F7A852292CA280F400C701C2 /* Sources */,
 				F7A8522A2CA280F400C701C2 /* Frameworks */,
 				F7A8522B2CA280F400C701C2 /* Resources */,
+				2D5EA3A936B504E2370CA561 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,7 +385,7 @@
 			);
 			name = Damini_WeatherAppUITests;
 			productName = Damini_WeatherAppUITests;
-			productReference = F7A8522D2CA280F400C701C2 /* Damini_WeatherAppUITests.xctest */;
+			productReference = F7A04FB62CA3B8660050F595 /* Damini_WeatherAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +420,7 @@
 				Base,
 			);
 			mainGroup = F7A852042CA280F300C701C2;
-			productRefGroup = F7A8520E2CA280F300C701C2 /* Products */;
+			productRefGroup = F7A852042CA280F300C701C2;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -231,9 +436,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A8524C2CA2868E00C701C2 /* SF-Pro-Text-Semibold.otf in Resources */,
+				F7A852532CA2877000C701C2 /* Weather.storyboard in Resources */,
+				F7A8524D2CA2868E00C701C2 /* SofiaProSoftBold.ttf in Resources */,
+				F7A067662CA3456B00D1F75A /* CityCell.xib in Resources */,
+				F7A8524E2CA2868E00C701C2 /* SofiaProSoftRegular.ttf in Resources */,
+				F7A8524B2CA2868E00C701C2 /* SF-Pro-Text-Regular.otf in Resources */,
 				F7A8521A2CA280F400C701C2 /* Assets.xcassets in Resources */,
+				F78BB58E2CA2C2B900B115B9 /* UpcomingWeatherCell.xib in Resources */,
 				F7A8521D2CA280F400C701C2 /* Base in Resources */,
-				F7A852182CA280F300C701C2 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +452,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A852542CA28BA700C701C2 /* SofiaProSoftRegular.ttf in Resources */,
+				F7A8525D2CA28BAD00C701C2 /* Assets.xcassets in Resources */,
+				F7A852552CA28BA700C701C2 /* SF-Pro-Text-Regular.otf in Resources */,
+				F7A852562CA28BA700C701C2 /* SofiaProSoftBold.ttf in Resources */,
+				F7A852572CA28BA700C701C2 /* SF-Pro-Text-Semibold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,19 +464,178 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A852582CA28BA800C701C2 /* SofiaProSoftRegular.ttf in Resources */,
+				F7A8525F2CA28BAD00C701C2 /* Assets.xcassets in Resources */,
+				F7A852592CA28BA800C701C2 /* SF-Pro-Text-Regular.otf in Resources */,
+				F7A8525A2CA28BA800C701C2 /* SofiaProSoftBold.ttf in Resources */,
+				F7A8525B2CA28BA800C701C2 /* SF-Pro-Text-Semibold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1792D0B3A92B4483EDE580F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Damini_WeatherAppTests/Pods-Damini_WeatherAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Damini_WeatherAppTests/Pods-Damini_WeatherAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Damini_WeatherAppTests/Pods-Damini_WeatherAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D5EA3A936B504E2370CA561 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Damini_WeatherApp-Damini_WeatherAppUITests/Pods-Damini_WeatherApp-Damini_WeatherAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Damini_WeatherApp-Damini_WeatherAppUITests/Pods-Damini_WeatherApp-Damini_WeatherAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Damini_WeatherApp-Damini_WeatherAppUITests/Pods-Damini_WeatherApp-Damini_WeatherAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		380C47904655D7C8193D56EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Damini_WeatherApp/Pods-Damini_WeatherApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Damini_WeatherApp/Pods-Damini_WeatherApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Damini_WeatherApp/Pods-Damini_WeatherApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64FEA535D4EDB9DDF44808F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Damini_WeatherApp-Damini_WeatherAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E20B6F9922247B03598C395 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Damini_WeatherApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A021B6428238BD0A17159A3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Damini_WeatherAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7785C382CA2E308006F3026 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F7A852092CA280F300C701C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7A852152CA280F300C701C2 /* ViewController.swift in Sources */,
+				F7B4165D2CA29438008E5001 /* APIHelper.swift in Sources */,
+				F78BB5862CA2A9E800B115B9 /* WeatherResponse.swift in Sources */,
+				F7A067622CA33C0800D1F75A /* AppLoader.swift in Sources */,
+				F78BB58A2CA2BC5100B115B9 /* FormatStyle.swift in Sources */,
+				F7A067582CA3384D00D1F75A /* Alert.swift in Sources */,
+				F78BB5882CA2B17D00B115B9 /* Time.swift in Sources */,
+				F78BB57E2CA2A51E00B115B9 /* WeatherVC.swift in Sources */,
+				F78BB58F2CA2C2B900B115B9 /* UpcomingWeatherCell.swift in Sources */,
+				F7785C372CA2DAD8006F3026 /* SearchResponse.swift in Sources */,
+				F7A04FBA2CA3BAF60050F595 /* CachedWeatherModel.swift in Sources */,
+				F78BB5822CA2A58500B115B9 /* Bindable.swift in Sources */,
 				F7A852112CA280F300C701C2 /* AppDelegate.swift in Sources */,
+				F7A04FB82CA3B99A0050F595 /* RealmStorage.swift in Sources */,
+				F7A067652CA3456B00D1F75A /* CityCell.swift in Sources */,
+				F78BB5802CA2A52600B115B9 /* WeatherViewModel.swift in Sources */,
 				F7A852132CA280F300C701C2 /* SceneDelegate.swift in Sources */,
+				F7B4165F2CA29490008E5001 /* Constants.swift in Sources */,
+				F7B416652CA29547008E5001 /* WeatherForecastResponse.swift in Sources */,
+				F78BB5842CA2A65000B115B9 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +643,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7A852282CA280F400C701C2 /* Damini_WeatherAppTests.swift in Sources */,
+				F7785C3A2CA2E749006F3026 /* WeatherProcessingTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +672,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F7A852162CA280F300C701C2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7A852172CA280F300C701C2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F7A8521B2CA280F400C701C2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,19 +804,26 @@
 		};
 		F7A852382CA280F400C701C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9459BA4155E3D7CB4970CF /* Pods-Damini_WeatherApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8869MXPGS2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Damini_WeatherApp/Info.plist;
+				INFOPLIST_FILE = Damini_WeatherApp/Plist/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Weather App";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow Damini_WeatherApp to access your current location to see precise wether forcasts";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow Damini_WeatherApp to access your current location to see precise wether forcasts";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = Weather;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,27 +831,38 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "damini.Damini-WeatherApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F7A852392CA280F400C701C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF81A1CFBFEEAF21AD2CF8CF /* Pods-Damini_WeatherApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8869MXPGS2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Damini_WeatherApp/Info.plist;
+				INFOPLIST_FILE = Damini_WeatherApp/Plist/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Weather App";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow Damini_WeatherApp to access your current location to see precise wether forcasts";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow Damini_WeatherApp to access your current location to see precise wether forcasts";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = Weather;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,84 +870,114 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "damini.Damini-WeatherApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		F7A8523B2CA280F400C701C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5846238791EEF250644C9D46 /* Pods-Damini_WeatherAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8869MXPGS2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "damini.Damini-WeatherAppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Damini_WeatherApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Damini_WeatherApp";
 			};
 			name = Debug;
 		};
 		F7A8523C2CA280F400C701C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C4D2B2D8FB2B61BFAA7C6A /* Pods-Damini_WeatherAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8869MXPGS2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "damini.Damini-WeatherAppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Damini_WeatherApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Damini_WeatherApp";
 			};
 			name = Release;
 		};
 		F7A8523E2CA280F400C701C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7152B55DFF8BF6339DEBD298 /* Pods-Damini_WeatherApp-Damini_WeatherAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8869MXPGS2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "damini.Damini-WeatherAppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = Damini_WeatherApp;
 			};
 			name = Debug;
 		};
 		F7A8523F2CA280F400C701C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FDF0B1789196FD36ADFE91F /* Pods-Damini_WeatherApp-Damini_WeatherAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8869MXPGS2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "damini.Damini-WeatherAppUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = Damini_WeatherApp;
 			};
 			name = Release;

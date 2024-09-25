@@ -1,0 +1,6 @@
+framework module Pods_Damini_WeatherApp_Damini_WeatherAppUITests {
+  umbrella header "Pods-Damini_WeatherApp-Damini_WeatherAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

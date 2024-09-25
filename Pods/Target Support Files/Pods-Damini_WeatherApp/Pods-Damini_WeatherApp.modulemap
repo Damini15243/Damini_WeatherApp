@@ -1,0 +1,6 @@
+framework module Pods_Damini_WeatherApp {
+  umbrella header "Pods-Damini_WeatherApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

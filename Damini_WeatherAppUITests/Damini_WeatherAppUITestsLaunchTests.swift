@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class Damini_WeatherAppUITestsLaunchTests: XCTestCase {
+final class DaminiWeatherAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

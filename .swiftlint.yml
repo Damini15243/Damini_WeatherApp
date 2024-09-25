@@ -1,0 +1,8 @@
+# Exclude certain files or folders
+excluded:
+  - Pods
+  
+# Disable specific rules
+disabled_rules:
+  - file_length # Disables file length rule
+  - line_length # Disables file length rule
